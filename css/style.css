@@ -84,7 +84,7 @@ header p {
 
 footer {
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   background-color: #1a1a1a;
   color: #888;
   font-size: 0.9em;
@@ -115,3 +115,60 @@ button {
 button:hover {
   background-color: #1a1a1a;
 }
+
+.logo {
+  width: 60px;
+  height: auto;
+  display: block;
+  margin: 0 auto 15px;
+  border-radius: 50px;
+}
+
+.contact {
+  background-color: #1a1a1a;
+  padding: 10px 0px 5px;
+  
+  text-align: center;
+  color: #ccc;
+  border-top: 1px solid #333;
+}
+
+.contact h3 {
+  color: #ffcc00;
+  margin-bottom: 10px;
+}
+
+.contact ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.95em;
+}
+
+.contact li {
+  margin: 8px 0;
+}
+
+.contact i {
+  margin-right: 8px;
+  color: #ffcc00;
+}
+
+.contact a {
+  color: #ffcc00;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+.contact li a i.fab.fa-facebook {
+  font-size: 1.5em;
+  vertical-align: middle;
+}
+
+.contact li a:hover i.fab.fa-facebook {
+  color: #e6b800;
+}
+
